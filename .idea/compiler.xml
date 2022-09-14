@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HomeWork" />
+        <module name="Spring-hello" />
+        <module name="Spring-ioc-test" />
         <module name="ClassWorkSpace" />
       </profile>
     </annotationProcessing>
