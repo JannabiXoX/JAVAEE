@@ -8,9 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HomeWork" />
         <module name="Spring-hello" />
+        <module name="Spring-anno-test" />
+        <module name="Spring-Aop" />
+        <module name="Spirng-aop-test" />
         <module name="Spring-ioc-test" />
-        <module name="ClassWorkSpace" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="Spring-anno-new" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

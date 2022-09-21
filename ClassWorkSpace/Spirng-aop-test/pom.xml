@@ -6,22 +6,15 @@
         <artifactId>JAVAEE</artifactId>
         <groupId>org.example</groupId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ClassWorkSpace</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>Spring-anno-test</module>
-        <module>Spring-anno-test</module>
-        <module>Spring-Aop</module>
-
-    </modules>
+    <artifactId>Spirng-aop-test</artifactId>
 
     <properties>
-        <maven.compiler.source>18</maven.compiler.source>
-        <maven.compiler.target>18</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
 </project>
